@@ -33,10 +33,10 @@ We'll see if it makes sense to merge it with other branches later on.
     mongod
     ```
 
-  2. Load the data. We need a different file, since the geopoint usage is slightly different:
+  2. Load the data. 
 
   ```
-  mongoimport --db poi-database --collection amenities --type json --file amenities_mdb.json --jsonArray
+  mongoimport --db poi-database --collection amenities --type json --file amenities.json --jsonArray
   ```
 
   3. Create 2dsphere index
