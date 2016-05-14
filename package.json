@@ -1,0 +1,30 @@
+{
+  "name": "place-finder",
+  "version": "0.0.1",
+  "description": "This service let's you find places around a certain location which serve your enjoyment.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbenm/place-finder.git"
+  },
+  "keywords": [
+    "place",
+    "bar",
+    "find",
+    "location",
+    "gps"
+  ],
+  "author": "torben.meyer@mailbox.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torbenm/place-finder/issues"
+  },
+  "homepage": "https://github.com/torbenm/place-finder#readme",
+  "dependencies": {
+    "mongodb": "^2.1.18",
+    "restify": "^4.0.4"
+  }
+}
