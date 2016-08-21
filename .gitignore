@@ -34,3 +34,12 @@ node_modules
 
 # Data folder
 data/
+
+# Idea folder
+.idea/
+
+# Mac files
+.DS_Store
+
+
+
