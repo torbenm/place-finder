@@ -41,5 +41,7 @@ data/
 # Mac files
 .DS_Store
 
+# Maven
+target/
 
 
